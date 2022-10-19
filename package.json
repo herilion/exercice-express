@@ -1,0 +1,23 @@
+{
+  "name": "veille",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herilion/function-sum-avec-reduce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/herilion/function-sum-avec-reduce/issues"
+  },
+  "homepage": "https://github.com/herilion/function-sum-avec-reduce#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
