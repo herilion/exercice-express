@@ -3,14 +3,17 @@ const app = express();
 const path = require('path');
 app.set('view engine', 'ejs');
 app.get("/", (req, res) => {
-    res.render(path.resolve('./pages/page1'))
+    res.render(path.resolve('./pages/accueil'))
+});
+app.get("/accueil", (req, res) => {
+    res.render(path.resolve('./pages/accueil'))
 });
 
-app.get("/page2", (req, res) => {
-    res.render(path.resolve('./pages/page2'))
+app.get("/about", (req, res) => {
+    res.render(path.resolve('./pages/about'))
 });
 
-app.get("/page3", (req, res) => {
-    res.render(path.resolve('./pages/page3'))
+app.get("/contact", (req, res) => {
+    res.render(path.resolve('./pages/contact'))
 })
 app.listen(8001)
